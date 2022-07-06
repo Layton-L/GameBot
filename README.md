@@ -12,7 +12,7 @@ You can edit the `config.py` file into main folder
 ```python
 TELEGRAM_TOKEN = "TOKEN"
 ```
-- To write admin, you must write an admin telegram id
+- To write admin, you must write an admin `telegram id`
 ```python
 ADMINS_IDS = []
 ```
