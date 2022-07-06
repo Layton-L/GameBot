@@ -12,9 +12,10 @@ You can edit the `config.py` file into main folder
 ```python
 TELEGRAM_TOKEN = "TOKEN"
 ```
-- To write admin, you must write an admin `telegram id`
+- To write admin user, you must write an user `telegram id`
 ```python
 ADMINS_IDS = []
 ```
 
-To see [requirements](https://github.com/Layton-L/GameBot/blob/main/requirements.txt)
+### Requirements:
+- Visit [here](https://github.com/Layton-L/GameBot/blob/main/requirements.txt)
