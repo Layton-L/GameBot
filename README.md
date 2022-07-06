@@ -16,3 +16,5 @@ TELEGRAM_TOKEN = "TOKEN"
 ```python
 ADMINS_IDS = []
 ```
+
+To see [requirements](https://github.com/Layton-L/GameBot/blob/main/requirements.txt)
