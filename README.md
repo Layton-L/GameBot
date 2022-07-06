@@ -6,7 +6,7 @@
 
 #### This is a simple game bot to create Telegram bot using aiogram library on Python.
 
-### Configuration file:
+### Configuration:
 You can edit the `config.py` file into main folder
 - To put your token, you must create a bot in `BotFather` and get a bot token
 ```python
