@@ -1,8 +1,8 @@
 from aiogram import types, Dispatcher
 from aiogram.dispatcher.filters import Text
 
-from keyboards import admin as admin_kb
 from states.states import States
+from keyboards import admin as admin_kb
 
 
 async def management(message: types.Message):
