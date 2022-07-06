@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 from config import ADMINS_IDS
 from provider import sqlite_db
 from states.states import States
-from keyboards import user, admin as admin_kb
+from keyboards import user as user_kb, admin as admin_kb
 
 
 async def start(message: types.Message):
@@ -74,11 +74,11 @@ def register_handler(dp: Dispatcher):
     dp.register_message_handler(start, commands=["start", "старт", "menu", "меню"], state="*")
     dp.register_message_handler(admin, commands=["admin", "админ"], state="*")
 
-    dp.register_message_handler(statistics, Text(equals="статистика", ignore_case=True))
-    dp.register_message_handler(settings, Text(equals="настройки", ignore_case=True))
-    dp.register_message_handler(bank, Text(equals="банк", ignore_case=True))
-    dp.register_message_handler(games, Text(equals="игры", ignore_case=True))
-    dp.register_message_handler(bonus, Text(equals="бонус", ignore_case=True))
+    dp.register_message_handler(statistics, Text(equals="статистика", ignore_case=True), state="*")
+    dp.register_message_handler(settings, Text(equals="настройки", ignore_case=True), state="*")
+    dp.register_message_handler(bank, Text(equals="банк", ignore_case=True), state="*")
+    dp.register_message_handler(games, Text(equals="игры", ignore_case=True), state="*")
+    dp.register_message_handler(bonus, Text(equals="бонус", ignore_case=True), state="*")
 
     dp.register_message_handler(back, Text(equals="назад", ignore_case=True), state=States.menu)
     dp.register_message_handler(settings, Text(equals="отмена", ignore_case=True), state=States.send_money)
