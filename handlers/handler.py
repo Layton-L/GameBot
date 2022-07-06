@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 from config import ADMINS_IDS
 from provider import sqlite_db
 from states.states import States
-from keyboards import user, admin as admin_kb
+from keyboards import user as user_kb, admin as admin_kb
 
 
 async def start(message: types.Message):
