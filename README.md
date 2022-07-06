@@ -1,11 +1,10 @@
-# GameBot
+# GameBot -> telegram bot
 
 | Author | Download |
 |:--:|:--:|
 |[Vk](https://m.vk.com/layton1)|[Releases](https://github.com/Layton-L/GameBot/releases)|
 
 #### This is a simple game bot to create Telegram bot using aiogram library on Python.
-<br>
 
 ### Configuration file:
 You can edit the `config.py` file into main folder
