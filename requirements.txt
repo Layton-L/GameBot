@@ -1,0 +1,13 @@
+aiogram == 2.21
+cleanapi == 0.1.6
+config == 0.5.1
+django-handler == 1.0
+handlers-lauto == 1.0.4
+latex-shortcuts == 0.0.4
+nonebot-plugin-fr24 == 0.2.2
+provider == 0.1.0
+pyfoldx == 0.1.1
+states == 0.2.1
+symro == 0.0.2
+toran == 0.0.1
+tzlocal == 4.2
